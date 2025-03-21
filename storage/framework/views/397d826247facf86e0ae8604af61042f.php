@@ -4,10 +4,10 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Natia | Personal Portfolio Bootstrap Template</title>
+    <title>Muhamamad Fadhil Adha</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc." />
-    <meta name="author" content="Zoyothemes" />
+    <meta name="description" content="Hi! I'm Fadhil, a proffesional Fullstack Web Developer." />
+    <meta name="author" content="Muhammad Fadhil Adha" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <!-- App favicon -->
@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    
+
 <?php echo $__env->yieldContent('content'); ?>
 
 <!-- Back to top -->
@@ -33,4 +33,5 @@
 <?php echo $__env->yieldContent('script-bottom'); ?>
 
 </body>
-</html><?php /**PATH C:\Users\User\Herd\defadels.my.id\resources\views\layouts\base.blade.php ENDPATH**/ ?>
+</html>
+<?php /**PATH C:\Users\User\Herd\defadels.my.id\resources\views\layouts\base.blade.php ENDPATH**/ ?>

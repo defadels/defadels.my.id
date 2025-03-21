@@ -30,18 +30,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonial">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
+                    
+                    
+                    
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
@@ -522,385 +514,19 @@
     <!-- End Client -->
 
     <!-- Start Work Section -->
-    <section class="bg-half-100 work-section" id="work">
-        <div class="container">
-
-            <div class="row align-items-center">
-                <div class="col-xxl-12 text-center">
-                    <div class="title-section">
-                        <h1 class="title-sub-heading mb-20">Portfolio</h1>
-                        <h2 class="title-main-heading mb-40">My work</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row align-items-center">
-                <div class="col-xxl-12"><!-- Start Col -->
-                    <div class="filters-group mb-5">
-                        <ul class="container-filter list-inline filter-options text-center">
-                            <li class="list-inline-item categories active" data-group="all">All</a></li>
-                            <li class="list-inline-item categories" data-group="branding">Branding</a></li>
-                            <li class="list-inline-item categories" data-group="designing">Designing</a></li>
-                            <li class="list-inline-item categories" data-group="photography">Photography</a></li>
-                            <li class="list-inline-item categories" data-group="development">Development</a></li>
-                        </ul>
-                    </div>
-                </div><!-- End col -->
-            </div>
-
-            <div id="gallery-wrapper" class="row projects-wrapper gy-4">
-                <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["branding"]'>
-                    <div class="work-container position-relative d-block overflow-hidden rounded">
-                        <div class="card-body p-0">
-                            <img src="/images/portfolio/01.jpg" class="img-fluid" alt="work-image">
-                            <div class="overlay-work bg-dark"></div>
-                            <div class="content">
-                                <h5 class="mb-3"><a class='content-title' href="<?php echo e(route('any', 'portfolio')); ?>">Mockup
-                                        Collection</a></h5>
-                                <h6 class="text-light tag mb-0">Mockup</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["designing"]'>
-                    <div class="work-container position-relative d-block overflow-hidden rounded">
-                        <div class="card-body p-0">
-                            <img src="/images/portfolio/02.jpg" class="img-fluid" alt="work-image">
-                            <div class="overlay-work bg-dark"></div>
-                            <div class="content">
-                                <h5 class="mb-3"><a class='content-title' href="<?php echo e(route('any', 'portfolio')); ?>">Mockup
-                                        Collection</a></h5>
-                                <h6 class="text-light tag mb-0">Mockup</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["photography"]'>
-                    <div class="work-container position-relative d-block overflow-hidden rounded">
-                        <div class="card-body p-0">
-                            <img src="/images/portfolio/03.jpg" class="img-fluid" alt="work-image">
-                            <div class="overlay-work bg-dark"></div>
-                            <div class="content">
-                                <h5 class="mb-3"><a class='content-title' href="<?php echo e(route('any', 'portfolio')); ?>">Mockup
-                                        Collection</a></h5>
-                                <h6 class="text-light tag mb-0">Mockup</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["development"]'>
-                    <div class="work-container position-relative d-block overflow-hidden rounded">
-                        <div class="card-body p-0">
-                            <img src="/images/portfolio/04.jpg" class="img-fluid" alt="work-image">
-                            <div class="overlay-work bg-dark"></div>
-                            <div class="content">
-                                <h5 class="mb-3"><a class='content-title' href="<?php echo e(route('any', 'portfolio')); ?>">Mockup
-                                        Collection</a></h5>
-                                <h6 class="text-light tag mb-0">Mockup</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["branding"]'>
-                    <div class="work-container position-relative d-block overflow-hidden rounded">
-                        <div class="card-body p-0">
-                            <img src="/images/portfolio/05.jpg" class="img-fluid" alt="work-image">
-                            <div class="overlay-work bg-dark"></div>
-                            <div class="content">
-                                <h5 class="mb-3"><a class='content-title' href="<?php echo e(route('any', 'portfolio')); ?>">Mockup
-                                        Collection</a></h5>
-                                <h6 class="text-light tag mb-0">Mockup</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--end col-->
-
-                <div class="col-lg-4 col-md-6 col-12 picture-item" data-groups='["designing"]'>
-                    <div class="work-container position-relative d-block overflow-hidden rounded">
-                        <div class="card-body p-0">
-                            <img src="/images/portfolio/06.jpg" class="img-fluid" alt="work-image">
-                            <div class="overlay-work bg-dark"></div>
-                            <div class="content">
-                                <h5 class="mb-3"><a class='content-title' href="<?php echo e(route('any', 'portfolio')); ?>">Mockup
-                                        Collection</a></h5>
-                                <h6 class="text-light tag mb-0">Mockup</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--end col-->
-            </div><!--end row-->
-
-            <div class="col-12">
-                <div class="text-center">
-                    <a href="#!" class="btn btn-primary rounded-pill mt-5"> See more</a>
-                </div>
-            </div><!--end col-->
-        </div><!-- End container -->
-    </section>
+    
     <!-- End Work Section -->
 
     <!-- Start Services Section -->
-    <section class="bg-half-100 services-section bg-secondary" id="services">
-        <div class="container">
-
-            <div class="row align-items-center">
-                <div class="col-xxl-12 text-center">
-                    <div class="title-section">
-                        <h1 class="title-sub-heading mb-20">Services</h1>
-                        <h2 class="title-main-heading mb-50">My Expertise</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row gy-4">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="service-box position-relative d-block rounded">
-                        <div class="icon-img mb-30">
-                            <img src="/images/service-icon/01.svg" class="img-fluid" alt="work-image" />
-                        </div>
-                        <span class="opacity-7">Product Design</span>
-                        <h6 class="services-sub-title mb-15 mt-2">
-                            <a href="javascript:void(0)" class="services-link">Digital Product Design</a>
-                        </h6>
-                        <p class="opacity-7 mb-0">Creating a higher spacing and how people move through a unique.</p>
-                        <div class="mt-4">
-                            <a class="text-uppercase text-dark" href="<?php echo e(route('any', 'blog')); ?>">Read More
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="ms-2">
-                                    <path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z" fill="currentColor"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div> <!-- end col -->
-
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="service-box position-relative d-block rounded">
-                        <div class="icon-img mb-30">
-                            <img src="/images/service-icon/02.svg" class="img-fluid" alt="work-image" />
-                        </div>
-                        <span class="opacity-7">Product Development</span>
-                        <h6 class="services-sub-title mb-15 mt-2">
-                            <a href="javascript:void(0)" class="services-link">Web Development</a>
-                        </h6>
-                        <p class="fz-14 text-muted opacity-7 mb-0">Creating a higher spacing and how people move through a unique.
-                        </p>
-                        <div class="underline mt-4">
-                            <a class="text-uppercase text-dark" href="<?php echo e(route('any', 'blog')); ?>">Read More
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="ms-2">
-                                    <path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z" fill="currentColor"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div> <!-- end col -->
-
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="service-box position-relative d-block rounded">
-                        <div class="icon-img mb-30">
-                            <img src="/images/service-icon/03.svg" class="img-fluid" alt="work-image" />
-                        </div>
-                        <span class="opacity-7">Custom Services</span>
-                        <h6 class="services-sub-title mb-15 mt-2">
-                            <a href="javascript:void(0)" class="services-link">Branding & Design</a>
-                        </h6>
-                        <p class="fz-14 text-muted opacity-7 mb-0">Creating a higher spacing and how people move through a unique.
-                        </p>
-                        <div class="underline mt-4">
-                            <a class="text-uppercase text-dark" href="<?php echo e(route('any', 'blog')); ?>">Read More
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="ms-2">
-                                    <path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z" fill="currentColor"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div> <!-- end col -->
-            </div>
-        </div><!-- End container -->
-    </section>
+    
     <!-- End Services Section -->
 
     <!-- Start Testimonial -->
-    <section class="bg-half-100 testimonial-section" id="testimonial">
-        <div class="container">
-
-            <div class="row align-items-center">
-                <div class="col-xxl-12 text-center">
-                    <div class="title-section">
-                        <h1 class="title-sub-heading mb-20">testimonial</h1>
-                        <h2 class="title-main-heading mb-50">Clients feedback</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row gy-4">
-                <div class="col-xxl-12">
-                    <div class="testimonials-slider">
-                        <div class="swiper testimonials position-relative align-items-center justify-content-center">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide testimonial-slide">
-                                    <div class="mt-3">
-                                        <div class="align-items-center gap-3">
-                                            <img src="/images/client/img-1.jpg" class="img-fluid rounded-circle" alt="Client Image">
-                                        </div>
-                                        <p>I highly recommend hiring developers for your team. As a company that recently brought on several
-                                            developers, I can attest to the incredible value they bring to our projects.
-                                        </p>
-                                        <h3 class="client-name">Robert Beck</h3>
-                                        <h4 class="client-role">Product Designer</h4>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide testimonial-slide">
-                                    <div class="mt-3">
-                                        <div class="align-items-center gap-3">
-                                            <img src="/images/client/img-2.jpg" class="img-fluid rounded-circle" alt="Client Image">
-                                        </div>
-                                        <p>I recently worked with the best designer in the industry to create a custom design for my
-                                            business, and I couldn't be happier with the results. The attention to detail and creativity that
-                                            went into the design was truly outstanding.
-                                        </p>
-                                        <h3 class="client-name">William Appel</h3>
-                                        <h4 class="client-role">Founder & CEO</h4>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide testimonial-slide">
-                                    <div class="mt-3">
-                                        <div class="align-items-center gap-3">
-                                            <img src="/images/client/img-3.jpg" class="img-fluid rounded-circle" alt="Client Image">
-                                        </div>
-                                        <p>Thank to you this software's marketing tools, they consistently offered valuable guidance,
-                                            suggesting effective strategies to enhance our marketing setup, and ensuring clarity and
-                                            conciseness in every aspect.
-                                        </p>
-                                        <h3 class="client-name">Earlene Mart</h3>
-                                        <h4 class="client-role">Digital Marketer</h4>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide testimonial-slide">
-                                    <div class="mt-3">
-                                        <div class="align-items-center gap-3">
-                                            <img src="/images/client/img-4.jpg" class="img-fluid rounded-circle" alt="Client Image">
-                                        </div>
-                                        <p>This template is exquisitely designed and offers fantastic new features. It receives regular
-                                            updates, ensuring top-notch quality. The support team is unparalleled, providing prompt,
-                                            courteous, premium, and exceptionally helpful assistance.
-                                        </p>
-                                        <h3 class="client-name">Timothy Green</h3>
-                                        <h4 class="client-role">Marketing Officer</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="hidden lg:block z-10">
-                            <div class="btn-swiper slider-next">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
-                                    <path d="M5 12h14" />
-                                    <path d="m12 5 7 7-7 7" />
-                                </svg>
-                            </div>
-
-                            <div class="btn-swiper slider-prev">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left">
-                                    <path d="m12 19-7-7 7-7" />
-                                    <path d="M19 12H5" />
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- End container -->
-    </section>
+    
     <!-- End Testimonial -->
 
     <!-- Start Blog -->
-    <section class="bg-half-100 blog-section bg-secondary" id="blog">
-        <div class="container">
-
-            <div class="row align-items-center">
-                <div class="col-xxl-12 text-center">
-                    <div class="title-section">
-                        <h1 class="title-sub-heading mb-20">Blog</h1>
-                        <h2 class="title-main-heading mb-50">Recent blog</h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                    <div class="blog-box">
-                        <div class="blog-images">
-                            <img src="/images/blog/blog-05.jpg" class="img-fluid rounded" alt="blog image">
-                        </div>
-                        <div class="blog-content">
-                            <h6 class="blog-title mt-4">
-                                <a href="javascript:void(0)">Creative website and build for better website</a>
-                            </h6>
-
-                            <div class="read-link mt-4">
-                                <a class="text-uppercase text-dark" href="<?php echo e(route('any', 'blog')); ?>">Read More
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="ms-2">
-                                        <path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z" fill="currentColor"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                    <div class="blog-box">
-                        <div class="blog-images">
-                            <img src="/images/blog/blog-07.jpg" class="img-fluid rounded" alt="blog image">
-                        </div>
-                        <div class="blog-content">
-                            <h6 class="blog-title mt-4">
-                                <a href="javascript:void(0)">How to build support with your best design client</a>
-                            </h6>
-
-                            <div class="read-link mt-4">
-                                <a class="text-uppercase text-dark" href="<?php echo e(route('any', 'blog')); ?>">Read More
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="ms-2">
-                                        <path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z" fill="currentColor"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                    <div class="blog-box">
-                        <div class="blog-images">
-                            <img src="/images/blog/blog-09.jpg" class="img-fluid rounded" alt="blog image">
-                        </div>
-                        <div class="blog-content">
-                            <h6 class="blog-title mt-4">
-                                <a href="javascript:void(0)">Smartest Applications for Business</a>
-                            </h6>
-
-                            <div class="read-link mt-4">
-                                <a class="text-uppercase text-dark" href="<?php echo e(route('any', 'blog')); ?>">Read More
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="ms-2">
-                                        <path d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z" fill="currentColor"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End container -->
-    </section>
+    
     <!-- Blog End -->
 
     <!-- Start Contact -->
@@ -1018,7 +644,7 @@
                                         </div>
 
                                         <div class="footer-subtitle footer-text-style">
-                                            <p>Germany — 426 Eden Drive Richmond, VA 23219</p>
+                                            <p>Indonesia — Jl. Karya Gg. Salak No. 9H, Kec. Medan Barat, Kel. Karang Berombak</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1030,10 +656,10 @@
                                         </div>
                                         <div class="footer-subtitle footer-text-style">
                                             <p class="mb-10 footer-text-style">
-                                                <a href="#0" class="footer-text-style">hello@design.com</a>
+                                                <a href="#0" class="footer-text-style">fadhil.adhaa26@gmail.com</a>
                                             </p>
                                             <h5>
-                                                <a href="#">+61 214 585 17 69</a>
+                                                <a href="#">+62 822-7331-8016</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -1044,10 +670,10 @@
                                         <h6>Social</h6>
                                     </div>
                                     <ul class="social-text">
-                                        <li class="mb-2"><a href="#">Facebook</a></li>
-                                        <li class="mb-2"><a href="#">Twitter</a></li>
-                                        <li class="mb-2"><a href="#">LinkedIn</a></li>
-                                        <li class="mb-2"><a href="#">Instagram</a></li>
+                                        <li class="mb-2"><a href="https://facebook.com/defadels">Facebook</a></li>
+                                        <li class="mb-2"><a href="https://github.com/defadels">GitHub</a></li>
+                                        <li class="mb-2"><a href="https://www.linkedin.com/in/muhammad-fadhil-adha-440945178/">LinkedIn</a></li>
+                                        <li class="mb-2"><a href="https://instagram.com/fadhil.adhaa">Instagram</a></li>
                                     </ul>
                                 </div>
 
@@ -1092,7 +718,7 @@
                             <div class="copyright d-flex">
                                 <div class="ms-auto">
                                     <p class="mb-0">©
-                                        <script>document.write(new Date().getFullYear())</script> Natia. Design with <i
+                                        <script>document.write(new Date().getFullYear())</script> Muhammad Fadhil Adha. Design with <i
                                         class="mdi mdi-heart text-danger"></i> by <a href="https://zoyothemes.com/" target="_blank"
                                         class="text-reset">Zoyothemes</a>.
                                     </p>
@@ -1118,4 +744,4 @@
 ]); ?>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('layouts.base', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\User\Herd\defadels.my.id\resources\views/index-1.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('layouts.base', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?><?php /**PATH C:\Users\User\Herd\defadels.my.id\resources\views/index-1.blade.php ENDPATH**/ ?>
