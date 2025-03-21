@@ -32,18 +32,18 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About Us</a>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="#work">Work</a>
-                    </li>
-                    <li class="nav-item">
+                    </li> --}}
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
+                    </li> --}}
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="#testimonial">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
+                    </li> --}}
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
@@ -1020,7 +1020,7 @@
                                         </div>
 
                                         <div class="footer-subtitle footer-text-style">
-                                            <p>Germany — 426 Eden Drive Richmond, VA 23219</p>
+                                            <p>Indonesia — Jl. Karya Gg. Salak No. 9H, Kec. Medan Barat, Kel. Karang Berombak</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1032,10 +1032,10 @@
                                         </div>
                                         <div class="footer-subtitle footer-text-style">
                                             <p class="mb-10 footer-text-style">
-                                                <a href="#0" class="footer-text-style">hello@design.com</a>
+                                                <a href="#0" class="footer-text-style">fadhil.adhaa26@gmail.com</a>
                                             </p>
                                             <h5>
-                                                <a href="#">+61 214 585 17 69</a>
+                                                <a href="#">+62 822-7331-8016</a>
                                             </h5>
                                         </div>
                                     </div>
@@ -1046,10 +1046,10 @@
                                         <h6>Social</h6>
                                     </div>
                                     <ul class="social-text">
-                                        <li class="mb-2"><a href="#">Facebook</a></li>
-                                        <li class="mb-2"><a href="#">Twitter</a></li>
-                                        <li class="mb-2"><a href="#">LinkedIn</a></li>
-                                        <li class="mb-2"><a href="#">Instagram</a></li>
+                                        <li class="mb-2"><a href="https://facebook.com/defadels">Facebook</a></li>
+                                        <li class="mb-2"><a href="https://github.com/defadels">GitHub</a></li>
+                                        <li class="mb-2"><a href="https://www.linkedin.com/in/muhammad-fadhil-adha-440945178/">LinkedIn</a></li>
+                                        <li class="mb-2"><a href="https://instagram.com/fadhil.adhaa">Instagram</a></li>
                                     </ul>
                                 </div>
 
@@ -1094,7 +1094,7 @@
                             <div class="copyright d-flex">
                                 <div class="ms-auto">
                                     <p class="mb-0">©
-                                        <script>document.write(new Date().getFullYear())</script> Natia. Design with <i
+                                        <script>document.write(new Date().getFullYear())</script> Muhammad Fadhil Adha. Design with <i
                                         class="mdi mdi-heart text-danger"></i> by <a href="https://zoyothemes.com/" target="_blank"
                                         class="text-reset">Zoyothemes</a>.
                                     </p>
