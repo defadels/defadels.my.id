@@ -925,7 +925,7 @@
                                 </div>
                                 <div>
                                     <h4 class="contact-name mb-1">Phone</h4>
-                                    <p class="mb-0"><a href="tel:02251398203" class="text-muted">+(02+ 251 398 203)</a></p>
+                                    <p class="mb-0"><a href="tel:02251398203" class="text-muted">+62 822-7331-8016</a></p>
                                 </div>
                             </div>
                             <div class="contact-type d-flex gap-0 column-gap-4 mt-5 align-items-center">
@@ -937,7 +937,7 @@
                                 </div>
                                 <div>
                                     <h4 class="contact-name mb-1">Email</h4>
-                                    <a href="mailto:info@example.com" class="mb-0 text-muted">info@example.com</a>
+                                    <a href="mailto:info@example.com" class="mb-0 text-muted">fadhil.adhaa26@gmail.com</a>
                                 </div>
                             </div>
                             <div class="contact-type d-flex gap-0 column-gap-4 mt-5 align-items-center">
@@ -949,7 +949,7 @@
                                 </div>
                                 <div>
                                     <h4 class="contact-name mb-1">Address</h4>
-                                    <p class="mb-0 text-muted">Graaf Florisstraat 22A, 3021 CH <br>Burline, Germany</p>
+                                    <p class="mb-0 text-muted">Jl. Karya Gang Salak No 9H, West Medan, Karang Berombak <br>North Sumatera, Indonesia</p>
                                 </div>
                             </div>
                         </div>
